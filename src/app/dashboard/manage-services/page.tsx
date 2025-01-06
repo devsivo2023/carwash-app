@@ -13,7 +13,7 @@ export default function Dashboard() {
       if (!data?.session) {
         window.location.href = "/login"; // Redirect to login if not authenticated
       } else {
-        setSession(data.session); // Correctly assign the Session object
+        setSession(data.session);
       }
     };
 
